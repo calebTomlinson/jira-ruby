@@ -1,5 +1,7 @@
 $: << File.expand_path(File.dirname(__FILE__))
 
+puts 'loaded the custom jira ruby'
+
 require 'active_support/inflector'
 ActiveSupport::Inflector.inflections do |inflector|
   inflector.singular 'status', 'status'
