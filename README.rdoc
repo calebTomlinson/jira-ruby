@@ -3,6 +3,8 @@
 This gem provides access to the Atlassian JIRA version 5 REST API (a.k.a REST
 API version 2).
 
+It is forked from the gem hosted by sumoheavy at https://github.com/sumoheavy/jira-ruby and will hopefully be merged back in soon.
+
 == Example usage
 
   client = JIRA::Client.new({:consumer_key => CONSUMER_KEY, :consumer_secret => CONSUMER_SECRET})
