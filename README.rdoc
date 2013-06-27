@@ -2,6 +2,7 @@
 
 This gem provides access to the Atlassian JIRA version 5 REST API (a.k.a REST
 API version 2).
+Sumoheavy adopted this gem from Trineo, but don't seem to be maintaining it or even bothering to look at pull requests. I recomend trying out the jiralicious gem.
 
 == My changes on transitions
 
